@@ -1,0 +1,13 @@
+POST http://localhost:8080/message
+Content-Type: application/json
+
+{
+  "text": "Que horas são?"
+}
+### 
+POST http://localhost:8080/message
+Content-Type: application/json
+
+{
+  "text": "Que dia da semana é hoje?"
+}
