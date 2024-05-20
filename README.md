@@ -45,6 +45,35 @@ $ pip install -r requirements.txt
 $ cd src
 $ python server.py
 ```
+
+
+## Documentação da API 📚
+
+#### Usuário envia mensagem utilizando linguagem natural que será classificada para definir o retorno (Dia da Semana ou Horário)
+
+```http
+  POST /message
+```
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `text` | `string` | **Obrigatório**. Mensagem |
+#### Retorna o horário
+####  Mensagem de exemplo: `Que horas são?`
+``` json 
+  {
+    "response": "20/05/2024 19:48"
+  }
+```
+#### Retorna o dia da semana
+####  Mensagem de exemplo: `Qual é o dia hoje?`
+``` json 
+  {
+  "response": "segunda"
+  }
+```
 ### Evidência da aplicação funcionando💯: 
 ![DIA DA SEMANA](/assets/teste_dia_da_semana.png)
 ![HORÁRIO](/assets/teste_horas.png)
+
+
