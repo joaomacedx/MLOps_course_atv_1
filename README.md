@@ -25,13 +25,13 @@ $ python -m venv MLOps_course_atv1
 **Para usuários de Linux ou Unix:**
 
 ```bash
-$ source artificial_intelligence_study/bin/activate
+$ source MLOps_course_atv1/bin/activate
 ```
 
 **Para usuários de Windows:**
 
 ```powershell
-PS> .\artificial_intelligence_study\Scripts\activate.ps1
+PS> .\MLOps_course_atv1\Scripts\activate.ps1
 ```
 
 ### Com o ambiente virtual ativado instale as dependências:
