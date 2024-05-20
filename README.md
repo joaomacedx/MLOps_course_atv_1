@@ -2,7 +2,7 @@
 
 ##### Aluno 👨🏾‍🎓:  João Gabriel dos Reis Hermida Macêdo
 
-## Documentação 📚: 
+## Configuração do Ambiente ⚙️: 
 **Certifique-se de ter o Python instalado em sua máquina.**
 - Este projeto foi desenvolvido utilizando python 3.12.3 
 
